@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d723ccd0d224e95b99b0dc709eb189, type: 3}
+  m_Name: Snake
+  m_EditorClassIdentifier: 
+  Id: Snake
+  Diet: 1
+  Prefab: {fileID: 2991019763021004182, guid: 660d2009f06fbde4fb0216e6d302b4e4, type: 3}
+  SpawnWeight: 1
+  MovementType: 1
+  Jump:
+    JumpForce: 2
+    JumpInterval: 2
+    JumpHeight: 10
+  Wander:
+    MoveSpeed: 3
+    DirectionChangeInterval: 3
+    RotationSpeed: 5

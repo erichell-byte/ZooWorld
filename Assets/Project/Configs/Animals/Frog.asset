@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d723ccd0d224e95b99b0dc709eb189, type: 3}
+  m_Name: Frog
+  m_EditorClassIdentifier: 
+  Id: Frog
+  Diet: 0
+  Prefab: {fileID: 1194727940064494360, guid: d69ac334d272b9040bca418278330555, type: 3}
+  SpawnWeight: 1.2
+  MovementType: 0
+  Jump:
+    JumpForce: 4
+    JumpInterval: 2
+    JumpHeight: 5
+    JumpCooldown: 0.4
+  Wander:
+    MoveSpeed: 3
+    DirectionChangeInterval: 3
+    RotationSpeed: 5
+    MinMoveSpeedThreshold: 0.1
